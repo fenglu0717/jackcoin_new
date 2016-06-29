@@ -17,7 +17,7 @@
         <junit-vesion>4.12</junit-vesion>
         <druid-vesion>1.0.19</druid-vesion>
         <sqlserver-version>4.0</sqlserver-version>
-        <jdk-version>1.8</jdk-version>
+        <jdk-version>1.7</jdk-version>
     </properties>
     <dependencies>
         <dependency>
