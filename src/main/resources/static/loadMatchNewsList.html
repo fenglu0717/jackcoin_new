@@ -34,78 +34,11 @@
     <h1 class="am-header-title">
         <a href="#">电子盘大赛</a>
     </h1>
-    <!-- <div class="am-header-right am-header-nav">
-        <a href="#chehua-menu" data-am-offcanvas></a>
-        <i class="am-menu-toggle-icon am-icon-bars am-icon-sm"></i>
-
-    </div> -->
 </header>
-
-<!-- Menu -->
-<!-- Menu -->
-<nav data-am-widget="menu" class="am-menu  am-menu-offcanvas1" data-am-menu-offcanvas>
-    <div class="am-offcanvas" id="chehua-menu">
-        <div class="am-offcanvas-bar">
-            <ul class="am-menu-nav am-avg-sm-1">
-                <li class="">
-                    <a href="index.html" >首 页</a>
-                </li>
-                <li class="am-parent">
-                    <a href="javascript:if(confirm('http://www.qbypsc.cn/ds/m/news/about.asp?id=5  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ������������ļ�δ�ҵ���  \n\n�����ڷ������ϴ���?'))window.location='http://www.qbypsc.cn/ds/m/news/about.asp?id=5'"
-                       tppabs="http://www.qbypsc.cn/ds/m/news/about.asp?id=5">关于大赛</a>
-
-                    <ul class="am-menu-sub am-collapse  am-avg-sm-2 ">
-
-                        <li><a href="about/6.html"
-                               title="奖项设置">奖项设置</a></li>
-                        <li><a href="about/7.html"
-                               title="比赛规则">比赛规则</a></li>
-                        <li><a href="about/8.html"
-                               title="软件下载">软件下载</a></li>
-                        <li><a href="about/9.html"
-                               title="邀请有礼">邀请有礼</a></li>
-                        <li><a href="about/10.html" title="比赛报名">比赛报名</a>
-                        </li>
-                        <li><a href="about/11.html" title="报名须知">报名须知</a>
-                        </li>
-
-
-                    </ul>
-                </li>
-
-                <li class="am-parent">
-                    <a href="javascript:if(confirm('http://www.qbypsc.cn/ds/m/news/news.asp?id=1  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ������������ļ�δ�ҵ���  \n\n�����ڷ������ϴ���?'))window.location='http://www.qbypsc.cn/ds/m/news/news.asp?id=1'"
-                       tppabs="http://www.qbypsc.cn/ds/m/news/news.asp?id=1">新闻中心</a>
-                    <ul class="am-menu-sub am-collapse  am-avg-sm-2 ">
-
-                        <li><a href="loadMatchNewsList.html?newsType=1" title="赛事公告">赛事公告</a></li>
-                        <li><a href="loadMatchNewsList.html?newsType=2" title="行情点评">行情点评</a></li>
-                        <li><a href="4.html" tppabs="http://www.qbypsc.cn/ds/m/news/?4.html" title="交易中心介绍">交易中心介绍</a>
-                        </li>
-                        <li><a href="12.html" tppabs="http://www.qbypsc.cn/ds/m/news/?12.html" title="高手心得">高手心得</a>
-                        </li>
-
-
-                    </ul>
-                </li>
-
-                <li class="">
-                    <a href="enroll.html">比赛报名</a>
-                </li>
-
-            </ul>
-        </div>
-    </div>
-</nav>
 
 <div class="" style="margin-top:10px;">
 
     <div data-am-widget="list_news" class="am-list-news am-list-news-default">
-        <div class="am-list-news-hd am-cf">
-            <a href="#">
-                <button type="button" class="am-btn am-btn-warning am-round am-btn-sm">赛事公告</button>
-            </a>
-        </div>
         <div class="am-list-news-bd" id="newsList">
             <ul class="am-list am-list-striped">
                 <li v-for="item in items">
@@ -123,18 +56,13 @@
                 <a class="btn" href="javascript:getNewsList('{{all-1}}')">尾页</a>
 
                 <select name="page" onchange="javascript:self.location.href=this.value;">
-
                     <option value=?2.html&Page=1 selected> {{cur+1}}/{{all}}</option>
-
                 </select>
-
             </ul>
-            </p>      </div>
-
+            </p>
+        </div>
     </div>
-
 </div>
-
 
 <!-- footer -->
 <div data-am-widget="navbar" class="am-navbar am-cf am-navbar-default" id="">
